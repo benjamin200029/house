@@ -16,6 +16,8 @@ public class Picture
     private Triangle roof;
     private Circle sun;
     private boolean drawn;
+    
+    //test if it worked
 
     /**
      * Constructor for objects of class Picture
@@ -38,7 +40,6 @@ public class Picture
             wall.moveHorizontal(-140);
             wall.moveVertical(20);
             wall.changeSize(120);
-            wall.changeColor("blue");
             wall.makeVisible();
             
             window.changeColor("black");
@@ -77,7 +78,7 @@ public class Picture
      */
     public void setColor()
     {
-        wall.changeColor("red");
+        wall.changeColor("orange");
         window.changeColor("black");
         roof.changeColor("green");
         sun.changeColor("yellow");
